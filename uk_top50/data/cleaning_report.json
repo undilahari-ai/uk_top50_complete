@@ -1,0 +1,45 @@
+{
+  "raw_rows": 27800,
+  "null_cells_raw": {},
+  "rows_missing_key_fields_dropped": 0,
+  "bad_days_dropped": [
+    "2025-03-01"
+  ],
+  "bad_day_row_counts": {
+    "2025-03-01": 100
+  },
+  "duplicate_rows_removed": 0,
+  "missing_dates": [
+    "2025-03-01",
+    "2025-03-14",
+    "2025-03-25",
+    "2025-07-11",
+    "2025-08-13"
+  ],
+  "popularity_zero_rows": 136,
+  "artist_spellings_merged": {
+    "SZA": [
+      "SZA",
+      "Sza"
+    ],
+    "Charli XCX": [
+      "Charli XCX",
+      "Charli xcx"
+    ],
+    "Lily-Rose Depp": [
+      "Lily Rose Depp",
+      "Lily-Rose Depp"
+    ]
+  },
+  "guest_artists_from_titles": 136,
+  "clean_rows": 27700,
+  "days": 554,
+  "date_range": [
+    "2024-05-18",
+    "2025-11-27"
+  ],
+  "every_day_has_positions_1_to_50_once": true,
+  "compilation_rows": 78,
+  "unique_artists": 416,
+  "collab_share": 0.2351
+}

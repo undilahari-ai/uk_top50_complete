@@ -1,0 +1,764 @@
+{
+  "kpis": {
+    "Artist Concentration Index": 0.010644085962517954,
+    "Unique Artist Count": 416.0,
+    "Collaboration Ratio": 0.23509025270758122,
+    "Explicit Content Share": 0.32010830324909745,
+    "Single vs Album Ratio": 0.6625737329962682,
+    "Content Variety Index": 0.8269105780077184,
+    "Top-5 Artist Share": 0.14321960699632907,
+    "Normalised Concentration": 0.008260095808210768,
+    "Avg Daily Unique Artists": 52.714801444043324,
+    "Daily Diversity Ratio": 0.7853144284705968
+  },
+  "period": {
+    "start": "2024-05-18",
+    "end": "2025-11-27",
+    "days": 554,
+    "entries": 27700,
+    "unique_songs": 838
+  },
+  "bands": {
+    "Top 10": {
+      "Entries": 5540.0,
+      "Unique Artist Count": 135.0,
+      "Artist Concentration Index": 0.0216000575,
+      "Top-5 Artist Share": 0.2253782472,
+      "Collaboration Ratio": 0.2037906137,
+      "Avg Artists per Song": 1.2646209386,
+      "Explicit Content Share": 0.4036101083,
+      "Single Share of Entries": 0.540433213,
+      "Single vs Album Ratio": 1.1773495871,
+      "Avg Duration (min)": 3.2251163568,
+      "Avg Popularity": 91.2698873956,
+      "Content Variety Index": 0.8387467081
+    },
+    "11-50": {
+      "Entries": 22160.0,
+      "Unique Artist Count": 413.0,
+      "Artist Concentration Index": 0.0101928201,
+      "Top-5 Artist Share": 0.1300845483,
+      "Collaboration Ratio": 0.2429151625,
+      "Avg Artists per Song": 1.3556859206,
+      "Explicit Content Share": 0.299232852,
+      "Single Share of Entries": 0.3616425993,
+      "Single vs Album Ratio": 0.569540189,
+      "Avg Duration (min)": 3.3053254716,
+      "Avg Popularity": 86.192991205,
+      "Content Variety Index": 0.8219694305
+    },
+    "Top 50": {
+      "Entries": 27700.0,
+      "Unique Artist Count": 416.0,
+      "Artist Concentration Index": 0.010644086,
+      "Top-5 Artist Share": 0.143219607,
+      "Collaboration Ratio": 0.2350902527,
+      "Avg Artists per Song": 1.3374729242,
+      "Explicit Content Share": 0.3201083032,
+      "Single Share of Entries": 0.397400722,
+      "Single vs Album Ratio": 0.662573733,
+      "Avg Duration (min)": 3.2892836486,
+      "Avg Popularity": 87.20711798,
+      "Content Variety Index": 0.826910578
+    }
+  },
+  "band_tests": [
+    {
+      "comparison": "Collaboration share",
+      "test": "chi-square",
+      "statistic": 37.5098577196,
+      "p_value": 9e-10
+    },
+    {
+      "comparison": "Explicit share",
+      "test": "chi-square",
+      "statistic": 221.3785347225,
+      "p_value": 4.525787814e-50
+    },
+    {
+      "comparison": "Single vs non-single",
+      "test": "chi-square",
+      "statistic": 590.8587555088,
+      "p_value": 1.629737785e-130
+    },
+    {
+      "comparison": "Duration (min)",
+      "test": "Mann-Whitney U",
+      "statistic": 58781731.0,
+      "p_value": 1.0245e-06
+    },
+    {
+      "comparison": "Popularity",
+      "test": "Mann-Whitney U",
+      "statistic": 88063783.0,
+      "p_value": 0.0
+    },
+    {
+      "comparison": "Artists per song",
+      "test": "Mann-Whitney U",
+      "statistic": 58672880.5,
+      "p_value": 0.0
+    }
+  ],
+  "top_artists": [
+    {
+      "artist_name": "Taylor Swift",
+      "appearances": 2095,
+      "days_on_chart": 498,
+      "unique_songs": 87,
+      "avg_position": 26.8,
+      "best_position": 1,
+      "share_%": 5.65
+    },
+    {
+      "artist_name": "Sabrina Carpenter",
+      "appearances": 963,
+      "days_on_chart": 310,
+      "unique_songs": 14,
+      "avg_position": 17.1,
+      "best_position": 1,
+      "share_%": 2.6
+    },
+    {
+      "artist_name": "Billie Eilish",
+      "appearances": 922,
+      "days_on_chart": 408,
+      "unique_songs": 13,
+      "avg_position": 19.8,
+      "best_position": 1,
+      "share_%": 2.49
+    },
+    {
+      "artist_name": "Olivia Rodrigo",
+      "appearances": 692,
+      "days_on_chart": 289,
+      "unique_songs": 18,
+      "avg_position": 21.0,
+      "best_position": 2,
+      "share_%": 1.87
+    },
+    {
+      "artist_name": "Chappell Roan",
+      "appearances": 634,
+      "days_on_chart": 224,
+      "unique_songs": 5,
+      "avg_position": 22.4,
+      "best_position": 2,
+      "share_%": 1.71
+    },
+    {
+      "artist_name": "Drake",
+      "appearances": 604,
+      "days_on_chart": 292,
+      "unique_songs": 40,
+      "avg_position": 27.4,
+      "best_position": 1,
+      "share_%": 1.63
+    },
+    {
+      "artist_name": "Central Cee",
+      "appearances": 539,
+      "days_on_chart": 376,
+      "unique_songs": 14,
+      "avg_position": 16.9,
+      "best_position": 1,
+      "share_%": 1.45
+    },
+    {
+      "artist_name": "Benson Boone",
+      "appearances": 536,
+      "days_on_chart": 306,
+      "unique_songs": 2,
+      "avg_position": 16.8,
+      "best_position": 1,
+      "share_%": 1.45
+    },
+    {
+      "artist_name": "The Killers",
+      "appearances": 510,
+      "days_on_chart": 510,
+      "unique_songs": 1,
+      "avg_position": 30.0,
+      "best_position": 8,
+      "share_%": 1.38
+    },
+    {
+      "artist_name": "Dua Lipa",
+      "appearances": 482,
+      "days_on_chart": 327,
+      "unique_songs": 6,
+      "avg_position": 21.4,
+      "best_position": 2,
+      "share_%": 1.3
+    }
+  ],
+  "artists_over_100_days": 120,
+  "artists_one_song_only": 294,
+  "median_appearances": 27.0,
+  "top10_artist_share": 0.2153152666810624,
+  "daily_unique": {
+    "mean": 52.714801444043324,
+    "min": 26,
+    "max": 73,
+    "weekly_mean": 63.641975308641975
+  },
+  "monthly_hhi_range": [
+    0.013686403499293317,
+    0.04535274910865078
+  ],
+  "monthly_hhi_peak_month": "2025-05-01",
+  "monthly_hhi_low_month": "2024-12-01",
+  "country": [
+    {
+      "country_group": "US",
+      "appearances": 18068,
+      "share_%": 48.8
+    },
+    {
+      "country_group": "UK",
+      "appearances": 11392,
+      "share_%": 30.7
+    },
+    {
+      "country_group": "Other",
+      "appearances": 5679,
+      "share_%": 15.3
+    },
+    {
+      "country_group": "Unknown",
+      "appearances": 1909,
+      "share_%": 5.2
+    }
+  ],
+  "country_by_band": [
+    {
+      "country_group": "US",
+      "appearances": 4050,
+      "share_%": 57.8,
+      "group": "Top 10"
+    },
+    {
+      "country_group": "UK",
+      "appearances": 1974,
+      "share_%": 28.2,
+      "group": "Top 10"
+    },
+    {
+      "country_group": "Other",
+      "appearances": 919,
+      "share_%": 13.1,
+      "group": "Top 10"
+    },
+    {
+      "country_group": "Unknown",
+      "appearances": 63,
+      "share_%": 0.9,
+      "group": "Top 10"
+    },
+    {
+      "country_group": "US",
+      "appearances": 14018,
+      "share_%": 46.7,
+      "group": "11-50"
+    },
+    {
+      "country_group": "UK",
+      "appearances": 9418,
+      "share_%": 31.3,
+      "group": "11-50"
+    },
+    {
+      "country_group": "Other",
+      "appearances": 4760,
+      "share_%": 15.8,
+      "group": "11-50"
+    },
+    {
+      "country_group": "Unknown",
+      "appearances": 1846,
+      "share_%": 6.1,
+      "group": "11-50"
+    },
+    {
+      "country_group": "US",
+      "appearances": 18068,
+      "share_%": 48.8,
+      "group": "Top 50"
+    },
+    {
+      "country_group": "UK",
+      "appearances": 11392,
+      "share_%": 30.7,
+      "group": "Top 50"
+    },
+    {
+      "country_group": "Other",
+      "appearances": 5679,
+      "share_%": 15.3,
+      "group": "Top 50"
+    },
+    {
+      "country_group": "Unknown",
+      "appearances": 1909,
+      "share_%": 5.2,
+      "group": "Top 50"
+    }
+  ],
+  "uk_share_of_labelled_%": 32.4,
+  "collab": {
+    "ratio": 0.23509025270758122,
+    "avg_artists_song": 1.3374729241877257,
+    "avg_artists_collab": 2.4355036855036856,
+    "team_sizes": [
+      {
+        "artists_on_track": "1",
+        "entries": 21188,
+        "share_%": 76.5
+      },
+      {
+        "artists_on_track": "2",
+        "entries": 4275,
+        "share_%": 15.4
+      },
+      {
+        "artists_on_track": "3",
+        "entries": 2030,
+        "share_%": 7.3
+      },
+      {
+        "artists_on_track": "4+",
+        "entries": 207,
+        "share_%": 0.7
+      }
+    ],
+    "by_band": [
+      {
+        "group": "Top 10",
+        "entries": 5540,
+        "collab_share_%": 20.3790613718,
+        "avg_artists_per_song": 1.2646209386
+      },
+      {
+        "group": "11-50",
+        "entries": 22160,
+        "collab_share_%": 24.2915162455,
+        "avg_artists_per_song": 1.3556859206
+      },
+      {
+        "group": "Top 50",
+        "entries": 27700,
+        "collab_share_%": 23.5090252708,
+        "avg_artists_per_song": 1.3374729242
+      }
+    ],
+    "avg_pos_solo": 25.37587313573721,
+    "avg_pos_collab": 25.90386977886978,
+    "p_solo_vs_collab": 0.009816745627959825,
+    "network": {
+      "nodes": 240,
+      "edges": 266,
+      "components": 46,
+      "largest_component": 88,
+      "density": 0.009274755927475592
+    },
+    "top_degree": [
+      {
+        "artist": "Drake",
+        "partners": 15,
+        "weighted_degree": 541
+      },
+      {
+        "artist": "Travis Scott",
+        "partners": 13,
+        "weighted_degree": 141
+      },
+      {
+        "artist": "Tyler, The Creator",
+        "partners": 11,
+        "weighted_degree": 169
+      },
+      {
+        "artist": "Kendrick Lamar",
+        "partners": 11,
+        "weighted_degree": 39
+      },
+      {
+        "artist": "Chase & Status",
+        "partners": 10,
+        "weighted_degree": 1281
+      },
+      {
+        "artist": "Charli XCX",
+        "partners": 10,
+        "weighted_degree": 125
+      },
+      {
+        "artist": "The Weeknd",
+        "partners": 9,
+        "weighted_degree": 813
+      },
+      {
+        "artist": "Central Cee",
+        "partners": 9,
+        "weighted_degree": 542
+      },
+      {
+        "artist": "Taylor Swift",
+        "partners": 7,
+        "weighted_degree": 168
+      },
+      {
+        "artist": "21 Savage",
+        "partners": 7,
+        "weighted_degree": 125
+      }
+    ],
+    "top_pairs": [
+      {
+        "a": "Dave",
+        "b": "Central Cee",
+        "weight": 390
+      },
+      {
+        "a": "cass\u00f6",
+        "b": "D-Block Europe",
+        "weight": 347
+      },
+      {
+        "a": "cass\u00f6",
+        "b": "RAYE",
+        "weight": 347
+      },
+      {
+        "a": "RAYE",
+        "b": "D-Block Europe",
+        "weight": 347
+      },
+      {
+        "a": "The Weeknd",
+        "b": "Playboi Carti",
+        "weight": 308
+      },
+      {
+        "a": "The Weeknd",
+        "b": "Madonna",
+        "weight": 248
+      },
+      {
+        "a": "Chase & Status",
+        "b": "Flowdan",
+        "weight": 196
+      },
+      {
+        "a": "Chase & Status",
+        "b": "Takura",
+        "weight": 196
+      }
+    ]
+  },
+  "explicit": {
+    "by_band": [
+      {
+        "rank_group": "Top 10",
+        "entries": 5540,
+        "explicit_entries": 2236,
+        "explicit_share_%": 40.4
+      },
+      {
+        "rank_group": "11-50",
+        "entries": 22160,
+        "explicit_entries": 6631,
+        "explicit_share_%": 29.9
+      },
+      {
+        "rank_group": "Top 50",
+        "entries": 27700,
+        "explicit_entries": 8867,
+        "explicit_share_%": 32.0
+      }
+    ],
+    "vs_clean": [
+      {
+        "content": "Clean",
+        "entries": 18833,
+        "avg_popularity": 87.08,
+        "median_popularity": 89.0,
+        "avg_position": 26.47,
+        "top10_share_%": 17.5
+      },
+      {
+        "content": "Explicit",
+        "entries": 8867,
+        "avg_popularity": 87.48,
+        "median_popularity": 89.0,
+        "avg_position": 23.45,
+        "top10_share_%": 25.2
+      }
+    ],
+    "p_position": 3.582795451055338e-59,
+    "p_popularity": 5.967945018270897e-10
+  },
+  "album": {
+    "share": [
+      {
+        "album_type": "album",
+        "entries": 16614,
+        "share_%": 60.0
+      },
+      {
+        "album_type": "single",
+        "entries": 11008,
+        "share_%": 39.7
+      },
+      {
+        "album_type": "compilation",
+        "entries": 78,
+        "share_%": 0.3
+      }
+    ],
+    "by_rank": [
+      {
+        "rank_group": "Top 10",
+        "album_type": "album",
+        "entries": 2543,
+        "share_in_group_%": 45.9
+      },
+      {
+        "rank_group": "Top 10",
+        "album_type": "compilation",
+        "entries": 3,
+        "share_in_group_%": 0.1
+      },
+      {
+        "rank_group": "Top 10",
+        "album_type": "single",
+        "entries": 2994,
+        "share_in_group_%": 54.0
+      },
+      {
+        "rank_group": "11-25",
+        "album_type": "album",
+        "entries": 4631,
+        "share_in_group_%": 55.7
+      },
+      {
+        "rank_group": "11-25",
+        "album_type": "compilation",
+        "entries": 57,
+        "share_in_group_%": 0.7
+      },
+      {
+        "rank_group": "11-25",
+        "album_type": "single",
+        "entries": 3622,
+        "share_in_group_%": 43.6
+      },
+      {
+        "rank_group": "26-50",
+        "album_type": "album",
+        "entries": 9440,
+        "share_in_group_%": 68.2
+      },
+      {
+        "rank_group": "26-50",
+        "album_type": "compilation",
+        "entries": 18,
+        "share_in_group_%": 0.1
+      },
+      {
+        "rank_group": "26-50",
+        "album_type": "single",
+        "entries": 4392,
+        "share_in_group_%": 31.7
+      }
+    ],
+    "avg_pos_single": 22.17641715116279,
+    "avg_pos_album": 27.71933309257253,
+    "p_single_vs_album": 3.0086676321453186e-214,
+    "size_stats": {
+      "share_entries_12plus_tracks_%": 52.3,
+      "share_album_entries_12plus_%": 86.7,
+      "mean_tracks_album_entries": 15.7,
+      "median_tracks_album_entries": 14.0,
+      "avg_position_12plus": 28.08,
+      "avg_position_under12": 22.68,
+      "single_entries": 11008.0
+    },
+    "size_summary": [
+      {
+        "album_size_bucket": "1 (single)",
+        "entries": 9309,
+        "avg_position": 21.5,
+        "avg_popularity": 88.1
+      },
+      {
+        "album_size_bucket": "2-5",
+        "entries": 1660,
+        "avg_position": 25.5,
+        "avg_popularity": 86.3
+      },
+      {
+        "album_size_bucket": "6-12",
+        "entries": 5099,
+        "avg_position": 26.3,
+        "avg_popularity": 87.5
+      },
+      {
+        "album_size_bucket": "13-20",
+        "entries": 9585,
+        "avg_position": 28.0,
+        "avg_popularity": 87.2
+      },
+      {
+        "album_size_bucket": "21+",
+        "entries": 2047,
+        "avg_position": 30.0,
+        "avg_popularity": 83.1
+      }
+    ],
+    "flood": [
+      {
+        "lead_artist": "Taylor Swift",
+        "flood_days": 157,
+        "max_tracks_in_chart": 22
+      },
+      {
+        "lead_artist": "Sabrina Carpenter",
+        "flood_days": 96,
+        "max_tracks_in_chart": 10
+      },
+      {
+        "lead_artist": "Billie Eilish",
+        "flood_days": 71,
+        "max_tracks_in_chart": 10
+      },
+      {
+        "lead_artist": "Chappell Roan",
+        "flood_days": 68,
+        "max_tracks_in_chart": 4
+      },
+      {
+        "lead_artist": "Olivia Rodrigo",
+        "flood_days": 61,
+        "max_tracks_in_chart": 12
+      },
+      {
+        "lead_artist": "Arctic Monkeys",
+        "flood_days": 48,
+        "max_tracks_in_chart": 6
+      },
+      {
+        "lead_artist": "Drake",
+        "flood_days": 26,
+        "max_tracks_in_chart": 22
+      },
+      {
+        "lead_artist": "Harry Styles",
+        "flood_days": 20,
+        "max_tracks_in_chart": 5
+      }
+    ],
+    "flood_days_total": 434,
+    "compilations": 78,
+    "single_share_all": 0.39740072202166066
+  },
+  "duration": {
+    "mean": 3.289283648616125,
+    "median": 3.1082666666666667,
+    "short_share": 0.39657039711191333,
+    "long_share": 0.16382671480144403,
+    "buckets": [
+      {
+        "duration_bucket": "Short (<3 min)",
+        "entries": 10985,
+        "avg_popularity": 87.4,
+        "avg_position": 24.5
+      },
+      {
+        "duration_bucket": "Medium (3-4 min)",
+        "entries": 12177,
+        "avg_popularity": 87.5,
+        "avg_position": 25.1
+      },
+      {
+        "duration_bucket": "Long (>4 min)",
+        "entries": 4538,
+        "avg_popularity": 86.1,
+        "avg_position": 29.0
+      }
+    ],
+    "by_quartile": [
+      {
+        "popularity_quartile": "Q1 (lowest)",
+        "entries": 6891,
+        "min_popularity": 1.0,
+        "max_popularity": 83.0,
+        "avg_duration_min": 3.34,
+        "median_duration_min": 3.25,
+        "avg_position": 29.93
+      },
+      {
+        "popularity_quartile": "Q2",
+        "entries": 6891,
+        "min_popularity": 83.0,
+        "max_popularity": 89.0,
+        "avg_duration_min": 3.37,
+        "median_duration_min": 3.4,
+        "avg_position": 28.87
+      },
+      {
+        "popularity_quartile": "Q3",
+        "entries": 6891,
+        "min_popularity": 89.0,
+        "max_popularity": 93.0,
+        "avg_duration_min": 3.26,
+        "median_duration_min": 3.08,
+        "avg_position": 25.9
+      },
+      {
+        "popularity_quartile": "Q4 (highest)",
+        "entries": 6891,
+        "min_popularity": 93.0,
+        "max_popularity": 100.0,
+        "avg_duration_min": 3.18,
+        "median_duration_min": 3.07,
+        "avg_position": 17.39
+      }
+    ],
+    "corr": {
+      "rho_duration_popularity": -0.07631223824855078,
+      "p_duration_popularity": 6.927713192681703e-37,
+      "rho_duration_position": 0.06467055298897247,
+      "p_duration_position": 4.5613113978742844e-27
+    },
+    "by_band": [
+      {
+        "group": "Top 10",
+        "avg_duration_min": 3.23,
+        "median_duration_min": 3.06,
+        "short_share_%": 42.6
+      },
+      {
+        "group": "11-50",
+        "avg_duration_min": 3.31,
+        "median_duration_min": 3.19,
+        "short_share_%": 38.92
+      },
+      {
+        "group": "Top 50",
+        "avg_duration_min": 3.29,
+        "median_duration_min": 3.11,
+        "short_share_%": 39.66
+      }
+    ],
+    "by_year": {
+      "2024": 3.2788128377192987,
+      "2025": 3.2966067924335376
+    }
+  },
+  "stay": {
+    "songs": 838,
+    "median": 7.0,
+    "max": 510
+  }
+}

@@ -1,0 +1,163 @@
+UK TOP 50 - KEY FINDINGS
+Period: 2024-05-18 to 2025-11-27 | days: 554 | entries: 27,700
+
+== Headline KPIs (whole period) ==
+Artist Concentration Index: 0.0106
+Unique Artist Count: 416
+Collaboration Ratio: 0.2351
+Explicit Content Share: 0.3201
+Single vs Album Ratio: 0.6626
+Content Variety Index: 0.8269
+Top-5 Artist Share: 0.1432
+Normalised Concentration: 0.0083
+Avg Daily Unique Artists: 52.7148
+Daily Diversity Ratio: 0.7853
+
+== Top 10 vs positions 11-50 vs Top 50 (same KPI definitions) ==
+                              Top 10      11-50     Top 50
+Entries                     5540.000  22160.000  27700.000
+Unique Artist Count          135.000    413.000    416.000
+Artist Concentration Index     0.022      0.010      0.011
+Top-5 Artist Share             0.225      0.130      0.143
+Collaboration Ratio            0.204      0.243      0.235
+Avg Artists per Song           1.265      1.356      1.337
+Explicit Content Share         0.404      0.299      0.320
+Single Share of Entries        0.540      0.362      0.397
+Single vs Album Ratio          1.177      0.570      0.663
+Avg Duration (min)             3.225      3.305      3.289
+Avg Popularity                91.270     86.193     87.207
+Content Variety Index          0.839      0.822      0.827
+
+          comparison           test    statistic       p_value
+ Collaboration share     chi-square 3.750986e+01  9.095214e-10
+      Explicit share     chi-square 2.213785e+02  4.525788e-50
+Single vs non-single     chi-square 5.908588e+02 1.629738e-130
+      Duration (min) Mann-Whitney U 5.878173e+07  1.024457e-06
+          Popularity Mann-Whitney U 8.806378e+07  0.000000e+00
+    Artists per song Mann-Whitney U 5.867288e+07  6.195186e-12
+
+== Artist dominance: top 10 by appearances ==
+      artist_name  appearances  days_on_chart  unique_songs  avg_position  best_position  share_%
+     Taylor Swift         2095            498            87          26.8              1     5.65
+Sabrina Carpenter          963            310            14          17.1              1     2.60
+    Billie Eilish          922            408            13          19.8              1     2.49
+   Olivia Rodrigo          692            289            18          21.0              2     1.87
+    Chappell Roan          634            224             5          22.4              2     1.71
+            Drake          604            292            40          27.4              1     1.63
+      Central Cee          539            376            14          16.9              1     1.45
+     Benson Boone          536            306             2          16.8              1     1.45
+      The Killers          510            510             1          30.0              8     1.38
+         Dua Lipa          482            327             6          21.4              2     1.30
+Top-10 artists' share of all artist slots: 21.5%
+
+== Diversity over time ==
+Avg unique artists per day: 52.7 (min 26, max 73)
+Avg unique artists per week: 63.6
+
+== Domestic vs international (see artist_country.csv) ==
+country_group  appearances  share_%
+           US        18068     48.8
+           UK        11392     30.7
+        Other         5679     15.3
+      Unknown         1909      5.2
+
+== Collaboration ==
+ group  entries  collab_share_%  avg_artists_per_song
+Top 10     5540           20.38                  1.26
+ 11-50    22160           24.29                  1.36
+Top 50    27700           23.51                  1.34
+Avg artists per song: 1.34 | avg artists per collaboration: 2.44
+artists_on_track  entries  share_%
+               1    21188     76.5
+               2     4275     15.4
+               3     2030      7.3
+              4+      207      0.7
+Avg position: solo 25.4 | collab 25.9
+Mann-Whitney p-value (position, solo vs collab): 9.82e-03
+Network: 240 artists, 266 links, 46 clusters, largest cluster 88 artists, density 0.0093
+            artist  partners  weighted_degree
+             Drake        15              541
+      Travis Scott        13              141
+Tyler, The Creator        11              169
+    Kendrick Lamar        11               39
+    Chase & Status        10             1281
+        Charli XCX        10              125
+        The Weeknd         9              813
+       Central Cee         9              542
+      Taylor Swift         7              168
+         21 Savage         7              125
+Strongest pairs (chart entries together):
+             a              b  weight
+          Dave    Central Cee     390
+         cassö D-Block Europe     347
+         cassö           RAYE     347
+          RAYE D-Block Europe     347
+    The Weeknd  Playboi Carti     308
+    The Weeknd        Madonna     248
+Chase & Status        Flowdan     196
+Chase & Status         Takura     196
+
+== Explicit ==
+rank_group  entries  explicit_entries  explicit_share_%
+    Top 10     5540              2236              40.4
+     11-50    22160              6631              29.9
+    Top 50    27700              8867              32.0
+ content  entries  avg_popularity  median_popularity  avg_position  top10_share_%
+   Clean    18833           87.08               89.0         26.47           17.5
+Explicit     8867           87.48               89.0         23.45           25.2
+Mann-Whitney p-value (position): 3.58e-59 | (popularity): 5.97e-10
+
+== Album type ==
+ album_type  entries  share_%
+      album    16614     60.0
+     single    11008     39.7
+compilation       78      0.3
+rank_group  album_type  entries  share_in_group_%
+    Top 10       album     2543              45.9
+    Top 10 compilation        3               0.1
+    Top 10      single     2994              54.0
+     11-25       album     4631              55.7
+     11-25 compilation       57               0.7
+     11-25      single     3622              43.6
+     26-50       album     9440              68.2
+     26-50 compilation       18               0.1
+     26-50      single     4392              31.7
+Avg position: single 22.2 | album 27.7
+Mann-Whitney p-value (position, single vs album): 3.01e-214
+Single : album ratio (compilations excluded) = 0.663; singles are 39.7% of ALL entries; compilations = 78 entries
+Album size: {'share_entries_12plus_tracks_%': np.float64(52.3), 'share_album_entries_12plus_%': np.float64(86.7), 'mean_tracks_album_entries': np.float64(15.7), 'median_tracks_album_entries': 14.0, 'avg_position_12plus': np.float64(28.08), 'avg_position_under12': np.float64(22.68), 'single_entries': 11008}
+album_size_bucket  entries  avg_position  avg_popularity
+       1 (single)     9309          21.5            88.1
+              2-5     1660          25.5            86.3
+             6-12     5099          26.3            87.5
+            13-20     9585          28.0            87.2
+              21+     2047          30.0            83.1
+Album 'flood' days (3+ songs from one album in the chart):
+      lead_artist  flood_days  max_tracks_in_chart
+     Taylor Swift         157                   22
+Sabrina Carpenter          96                   10
+    Billie Eilish          71                   10
+    Chappell Roan          68                    4
+   Olivia Rodrigo          61                   12
+   Arctic Monkeys          48                    6
+            Drake          26                   22
+     Harry Styles          20                    5
+
+== Duration ==
+Mean length: 3.29 min | median: 3.11 min | under 3 min: 39.7% | over 4 min: 16.4%
+ duration_bucket  entries  avg_popularity  avg_position
+  Short (<3 min)    10985            87.4          24.5
+Medium (3-4 min)    12177            87.5          25.1
+   Long (>4 min)     4538            86.1          29.0
+popularity_quartile  entries  min_popularity  max_popularity  avg_duration_min  median_duration_min  avg_position
+        Q1 (lowest)     6891             1.0            83.0              3.34                 3.25         29.93
+                 Q2     6891            83.0            89.0              3.37                 3.40         28.87
+                 Q3     6891            89.0            93.0              3.26                 3.08         25.90
+       Q4 (highest)     6891            93.0           100.0              3.18                 3.07         17.39
+Spearman duration vs popularity: -0.076 (p=6.9e-37); duration vs position: 0.065 (p=4.6e-27)
+ group  avg_duration_min  median_duration_min  short_share_%
+Top 10              3.23                 3.06          42.60
+ 11-50              3.31                 3.19          38.92
+Top 50              3.29                 3.11          39.66
+
+Songs seen: 838 | median days on chart: 7 | longest: 510 days
