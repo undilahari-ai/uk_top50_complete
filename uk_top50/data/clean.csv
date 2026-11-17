@@ -16,7 +16,7 @@ date,position,song,artist,popularity,duration_ms,album_type,total_tracks,is_expl
 2024-05-18,15,As It Was,Harry Styles,92.0,167303,album,13,False,Harry Styles,1,False,Harry Styles,167.303,2.7883833333333334,Short (<3 min),11-25,11-50,Q3,13-20
 2024-05-18,16,Cupid - Twin Ver.,FIFTY FIFTY,97.0,174253,single,3,False,FIFTY FIFTY,1,False,FIFTY FIFTY,174.253,2.9042166666666667,Short (<3 min),11-25,11-50,Q4 (highest),2-5
 2024-05-18,17,Chemical,Post Malone,90.0,184013,single,1,True,Post Malone,1,False,Post Malone,184.013,3.066883333333333,Medium (3-4 min),11-25,11-50,Q3,1 (single)
-2024-05-18,18,Escapism.,RAYE,9aa1.0,272373,album,15,True,RAYE,1,False,RAYE,272.373,4.53955,Long (>4 min),11-25,11-50,Q3,13-20
+2024-05-18,18,Escapism.,RAYE,91.0,272373,album,15,True,RAYE,1,False,RAYE,272.373,4.53955,Long (>4 min),11-25,11-50,Q3,13-20
 2024-05-18,19,See You Again (feat. Kali Uchis),"Tyler, The Creator",94.0,180386,album,14,True,"Tyler, The Creator | Kali Uchis",2,True,"Tyler, The Creator",180.386,3.0064333333333333,Medium (3-4 min),11-25,11-50,Q4 (highest),13-20
 2024-05-18,20,ceilings,Lizzy McAlpine,91.0,182887,album,14,False,Lizzy McAlpine,1,False,Lizzy McAlpine,182.887,3.0481166666666666,Medium (3-4 min),11-25,11-50,Q3,13-20
 2024-05-18,21,Calm Down (with Selena Gomez),Rema,78.0,239317,album,22,False,Rema | Selena Gomez,2,True,Rema,239.317,3.9886166666666667,Medium (3-4 min),11-25,11-50,Q1 (lowest),21+
