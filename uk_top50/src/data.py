@@ -16,6 +16,7 @@ def load_clean(path: Path = None) -> pd.DataFrame:
     """Read data/clean.csv and restore dates and ordered categories."""
     path = path or ROOT / "data" / "clean.csv"
     c = pd.read_csv(path, parse_dates=["date"])
+    c["popularity"] = pd.to_numeric(c["popularity"], errors="coerce")
     c["rank_group"] = pd.Categorical(c["rank_group"], RANK_ORDER, ordered=True)
     c["rank_band"] = pd.Categorical(c["rank_band"], BAND_ORDER, ordered=True)
     c["duration_bucket"] = pd.Categorical(c["duration_bucket"], DUR_ORDER, ordered=True)

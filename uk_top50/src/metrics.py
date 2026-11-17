@@ -398,7 +398,7 @@ def kpis_by_band(clean: pd.DataFrame, exploded: pd.DataFrame) -> pd.DataFrame:
             "Single Share of Entries": single_share(c),
             "Single vs Album Ratio": single_vs_album_ratio(c),
             "Avg Duration (min)": float(c["duration_min"].mean()),
-            "Avg Popularity": float(c["popularity"].mean()),
+            "Avg Popularity": float(pd.to_numeric(c["popularity"], errors="coerce").mean()),
             "Content Variety Index": content_variety_index(c, e),
         }
     return pd.DataFrame(rows)
